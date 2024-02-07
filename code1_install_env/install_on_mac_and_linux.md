@@ -2,8 +2,6 @@
 TAs are using Visual Studio Code to write and run Python code.
 You can install Visual Studio Code on Mac by following the instructions on the [Visual Studio Code website](https://code.visualstudio.com/docs/setup/mac).
 
-Then you should follow this to install `python` and `jupyter` extensions on vscode. See [Install Python and Jupyter extensions](https://www.alphr.com/vs-code-open-jupyter-notebook/)
-
 # Install Miniconda on Mac and Linux
 You can refer to the [Miniconda installation guide](https://docs.anaconda.com/free/miniconda/) for more information.
 If you don't know how to open a terminal, you can refer to the [Terminal on Mac](https://www.howtogeek.com/682770/how-to-open-the-terminal-on-a-mac/) guide.
@@ -49,16 +47,27 @@ It should display the version of Miniconda you installed. e.g.`conda 23.11.0`
 
 # Download EMIA6500E Course Materials from Github
 You should first download the course materials from the [course github](https://github.com/a43992899/EMIA6500E/tree/main).
+
 If you know how to use git, you can clone the repository by running the following command:
 ```bash
 git clone https://github.com/a43992899/EMIA6500E.git
 ```
+
 If you don't know how to use git, you can download the repository as a zip file by clicking the green "Code" button.
 ![Download github material](assets/install_on_mac_and_linux.1.png)
 
 If you want to install git, see this guide from GPT4. [Install git](https://chat.openai.com/share/66110a95-3b66-4352-ad70-a1a7c9627a17). There are also a lot of instructions if you search "install git on mac" or "install git on linux" on the internet.
 
 From now on, we assume you have downloaded the course materials and extracted them to `~/code/EMIA6500E`.
+
+Please note that we will update the github repository regularly as the course progresses. You should update your local repository regularly to get the latest course materials. If you are using git, you can run the following command to update your local repository:
+```bash
+PROJECT_ROOT=~/code/EMIA6500E
+cd PROJECT_ROOT
+git pull
+```
+
+If you are not using git, remember to download the latest zip file every week.
 
 # Install EMIA6500E Environment
 Every time you open a new terminal, remember to set the `PROJECT_ROOT` to the path where you extracted the course materials. e.g. `~/code/EMIA6500E`
@@ -89,3 +98,21 @@ Sklearn version:  1.3.2
 success!
 ```
 
+# Install Jupyter Notebook, Run the Pytorch Example
+You should follow this to install `python` and `jupyter` extensions on vscode. See [Install Python and Jupyter extensions](https://www.alphr.com/vs-code-open-jupyter-notebook/)
+
+Now you can open the example jupyter notebook by clicking the `code1_install_env/fit_quadratic.ipynb` file in vscode.
+
+It is a minimal pytorch example applying stochastic gradient descent (SGD) to learn a quadratic function from some noisy data.
+
+You can run the notebook by clicking the `Run Cell` button or pressing `Shift+Enter` on your keyboard.
+
+You should get familiar with the notebook interface and the basic operations such as running a cell, adding a new cell, and deleting a cell.
+
+You should also get familiar with the pytorch library and the basic operations such as creating a tensor, defining a model, and training a model.
+
+If you have any questions, please try to ask ChatGPT first. If it does not fix your problem, you may open an issue on the course github repository, or ask the TAs during the office hours.
+
+To open an issue on the course github repository, you can click the `Issues` tab and then click the `New issue` button. A quick link is [here](https://github.com/a43992899/EMIA6500E/issues).
+
+![open an issue](assets/install_on_mac_and_linux.2.png)
