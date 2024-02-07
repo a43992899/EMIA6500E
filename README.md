@@ -4,7 +4,7 @@ This repository contains the course materials for EMIA6500E. The course is desig
 
 If you have any coding questions, please ask ChatGPT first, GPT4 will be better. If ChatGPT fails to answer your question, you can open an issue in this repository. We will try to answer your question as soon as possible.
 
-You can also reach out to the TAs or the instructor every Thursday.
+You can also reach out to the TAs or the instructor every Thursday during class.
 
 Updates:
 
