@@ -1,6 +1,7 @@
-# Code Materials for EMIA6500E
+# Code Materials for EMIA6500E-24Spring
 
-This repository contains the course materials for EMIA6500E. The course is designed for students who are interested in learning about the basics of machine learning and deep learning. The course is designed to be accessible to students with a wide range of backgrounds, including students with no prior experience in machine learning or deep learning.
+This repository contains the course materials for EMIA6500E. The course is designed for students who are interested in learning about the applications of machine learning and deep learning, especially AI4science and Generative AI.
+The course is designed to be accessible to students with a wide range of backgrounds, including students with no prior experience in machine learning or deep learning.
 
 If you have any coding questions, please ask ChatGPT first, GPT4 will be better. If ChatGPT fails to answer your question, you can open an issue in this repository. We will try to answer your question as soon as possible.
 
