@@ -1,4 +1,4 @@
-# Course Materials for EMIA6500E
+# Code Materials for EMIA6500E
 
 This repository contains the course materials for EMIA6500E. The course is designed for students who are interested in learning about the basics of machine learning and deep learning. The course is designed to be accessible to students with a wide range of backgrounds, including students with no prior experience in machine learning or deep learning.
 
