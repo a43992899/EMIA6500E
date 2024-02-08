@@ -81,7 +81,7 @@ Now create a new miniconda environment called `emia6500` and install the `requir
 cd $PROJECT_ROOT/code1_install_env
 conda create --name emia6500 python=3.8
 conda activate emia6500
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 To test your package is correctly installed, you can run the following command:
