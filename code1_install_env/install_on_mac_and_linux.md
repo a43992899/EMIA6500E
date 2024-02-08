@@ -86,6 +86,8 @@ pip3 install -r requirements.txt
 
 To test your package is correctly installed, you can run the following command:
 ```bash
+source ~/miniconda3/bin/activate
+conda activate emia6500
 python3 verify_env.py
 ```
 
