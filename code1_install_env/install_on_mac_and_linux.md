@@ -79,7 +79,7 @@ PROJECT_ROOT=~/code/EMIA6500E
 Now create a new miniconda environment called `emia6500` and install the `requirements.txt` by running the following command:
 ```bash
 cd $PROJECT_ROOT/code1_install_env
-conda create --name emia6500 python=3.8
+conda create --name emia6500 python=3.11
 conda activate emia6500
 pip install -r requirements.txt
 ```
