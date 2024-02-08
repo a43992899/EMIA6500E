@@ -50,6 +50,8 @@ You should first download the course materials from the [course github](https://
 
 If you know how to use git, you can clone the repository by running the following command:
 ```bash
+mkdir ~/code
+cd ~/code
 git clone https://github.com/a43992899/EMIA6500E.git
 ```
 
